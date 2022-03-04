@@ -67,7 +67,23 @@ const UserSchema= new Schema(
         type: String,
         required: false
     },
-    technologies_user:{
+    technologies_user_front:{
+        type: String,
+        required: false
+    },
+     technologies_user_back:{
+        type: String,
+        required: false
+    },
+     technologies_user_uiux:{
+        type: String,
+        required: false
+    },
+    technologies_user_mobile:{
+        type: String,
+        required: false
+    },
+     technologies_user_desktop:{
         type: String,
         required: false
     },
