@@ -91,6 +91,30 @@ const UserSchema= new Schema(
         type: String,
         required: false
     },
+    name_project_primary:{
+        type: String,
+        required: false
+    },
+    link_photo_project_primary:{
+        type: String,
+        required: false
+    }, 
+    name_project_second:{
+        type: String,
+        required: false
+    },    
+    link_photo_project_scond:{
+        type: String,
+        required: false
+    },
+    name_project_three:{
+        type: String,
+        required: false
+    },
+    link_photo_project_three:{
+        type: String,
+        required: false
+    },       
     link_cv:{
         type: String,
         required: false
