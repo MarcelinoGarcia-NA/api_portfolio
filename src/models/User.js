@@ -95,7 +95,7 @@ const UserSchema= new Schema(
         type: String,
         required: false
     },
-    link_project_primar:{
+    link_project_primary:{
         type: String,
         required: false
     },    
